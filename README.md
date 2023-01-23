@@ -1,24 +1,25 @@
 # Firmware-Updater
 The Firmware update software for use with 2022 and newer modules.
-Tenderfoot Electronics Firmware Updater
 
-Step1
+Tenderfoot Electronics Firmware Updater
+----
+**Step1**
 Before using the updater, make sure you are using Windows and have installed AVRDude. There are 2 ways that we can do this:
 
---------------------------------
 
-OPTION 1 - Automatic install of AVRDude via Arduino IDE
+
+**_OPTION 1_** - Automatic install of AVRDude via Arduino IDE
 Download the most recent version of the Arduino IDE for free from the official arduino website:
 
 https://www.arduino.cc/en/software
 
 This automatically installs AVRDude and can be uninstalled after the firmware update is complete.
 
-Progress to Step2 (not option 2).
+_**Progress to Step2 (not option 2)**._
 
---------------------------------
 
-OPTION 2 - Manual install of AVRDude 
+
+**_OPTION 2_** - Manual install of AVRDude 
 A copy of AVRDude is included in the subfolder of this zip file. 
 
 To install AVRDude, place the AVRDude folder in a location of your choice.
@@ -29,37 +30,37 @@ Click on the "Environment Variables" button. Then in the lower box find and sele
 
 In the new pop-up window, press the "Browse..." button and locate the AVRDude directory.
 
-Then press OK and close the system properties windows and progress to step 2.
+Then press OK and close the system properties windows and _**progress to Step2**._
 
---------------------------------
+----
 
-Step2
+**Step2**
 Make sure you have a copy of the firmware you wish to flash to your product. This will be a ".hex" file.
 
---------------------------------
+----
 
-Step3
+**Step3**
 Make sure the product that you are updating is switched off, and all other switches are in the off positions.
 Also make sure you have easy access to the mini USB port on the product.
 
---------------------------------
+----
 
-Step4
+**Step4**
 Insert the USB mini cable into the unit and connect it to your computer.
 
---------------------------------
+----
 
-Step5
+**Step5**
 Open the TenderfootUpdater.exe program.
 
---------------------------------
+----
 
-Step6
+**Step6**
 Press the "Select Firmware" button and locate the ".hex" file mentioned in step 2.
 
---------------------------------
+----
 
-Step7
+**Step7**
 Select the USB Port that the product is connected to. 
 
 If there are multiple options, you can unplug the product and restart the application to see which option is missing.
@@ -68,9 +69,9 @@ This will tell you which one to select next time you run the program.
 
 Alternatively, you can open the windows device manager, and under the "Ports" list, you will see a COM port labeled with "CH340". This will be the correct port to choose in the updater 
 
---------------------------------
+----
 
-Step8
+**Step8**
 The "Install Firmware" button will now be active. Click this to install the firmware. 
 
 You will see the progress of the AVRDude program running in a black command window.
