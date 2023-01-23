@@ -20,7 +20,10 @@ _**Progress to Step2 (not option 2)**._
 
 
 **_OPTION 2_** - Manual install of AVRDude 
-A copy of AVRDude is included in the subfolder of this zip file. 
+A copy of AVRDude is included in the subfolder of this zip file, but can also be downloaded from:
+
+https://github.com/avrdudes/avrdude/releases 
+
 
 To install AVRDude, place the AVRDude folder in a location of your choice.
 
